@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Broken Links Report - 20260317_143933</title>
+    <title>Broken Links Report - 20260318_120217</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
@@ -51,7 +51,7 @@
             margin: 30px 0;
             border: 2px solid #6B46C1;
             border-radius: 10px;
-            overflow: hidden;
+            overflow-x: auto;
         }
         .category-header {
             background: #6B46C1;
@@ -70,6 +70,7 @@
         table {
             width: 100%;
             border-collapse: collapse;
+            table-layout: auto;
         }
         th {
             background: #f8f9fa;
@@ -83,13 +84,15 @@
             padding: 12px;
             border-bottom: 1px solid #eee;
             font-size: 0.9em;
+            vertical-align: top;
         }
         tr:hover {
             background: #f8f9fa;
         }
         .broken-link {
             color: #dc3545;
-            word-break: break-all;
+            white-space: nowrap;
+            overflow: visible;
             font-family: monospace;
             font-size: 0.85em;
         }
@@ -124,7 +127,7 @@
 <body>
     <div class="container">
         <h1>🔗 Broken Links Report</h1>
-        <div class="timestamp">Generated: 2026-03-17 14:39:33</div>
+        <div class="timestamp">Generated: 2026-03-18 12:02:17</div>
 
         <div class="summary">
             <h2>📊 Summary</h2>
@@ -150,7 +153,7 @@
 
                     <tr>
                         <td><a href="https://help.sonatype.com/en/bundle-development.html" class="source-link" target="_blank" title="https://help.sonatype.com/en/bundle-development.html">bundle-development</a></td>
-                        <td><span class="broken-link" title="https://github.com/sonatype/nexus-public/tree/master/assemblies/">https://github.com/sonatype/nexus-public/tree/m...</span></td>
+                        <td><span class="broken-link" title="https://github.com/sonatype/nexus-public/tree/master/assemblies/">https://github.com/sonatype/nexus-public/tree/master/assemblies/</span></td>
                         <td><span class="context">...ion of Nexus Repository. These definitions are found in the assemblies module. The supported distributions are defined in the modu...</span></td>
                         <td><span class="error-badge">404 Not Found</span></td>
                     </tr>
@@ -177,7 +180,7 @@
 
                     <tr>
                         <td><a href="https://help.sonatype.com/en/download-and-compatibility.html" class="source-link" target="_blank" title="https://help.sonatype.com/en/download-and-compatibility.html">download-and-compatibility</a></td>
-                        <td><span class="broken-link" title="https://download.sonatype.com/iq/idea/nexus-iq-idea-plugin-4.17.1-01.zip.asc">https://download.sonatype.com/iq/idea/nexus-iq-...</span></td>
+                        <td><span class="broken-link" title="https://download.sonatype.com/iq/idea/nexus-iq-idea-plugin-4.17.1-01.zip.asc">https://download.sonatype.com/iq/idea/nexus-iq-idea-plugin-4.17.1-01.zip.asc</span></td>
                         <td><span class="context">nexus-iq-idea-plugin-4.17.1-01.zip ( ASC , SHA1 )</span></td>
                         <td><span class="error-badge">404 Not Found</span></td>
                     </tr>
@@ -198,7 +201,7 @@
 
                     <tr>
                         <td><a href="https://help.sonatype.com/en/iq-for-idea.html" class="source-link" target="_blank" title="https://help.sonatype.com/en/iq-for-idea.html">iq-for-idea</a></td>
-                        <td><span class="broken-link" title="https://download.sonatype.com/iq/idea/nexus-iq-idea-plugin-4.17.1-01.zip.asc">https://download.sonatype.com/iq/idea/nexus-iq-...</span></td>
+                        <td><span class="broken-link" title="https://download.sonatype.com/iq/idea/nexus-iq-idea-plugin-4.17.1-01.zip.asc">https://download.sonatype.com/iq/idea/nexus-iq-idea-plugin-4.17.1-01.zip.asc</span></td>
                         <td><span class="context">nexus-iq-idea-plugin-4.17.1-01.zip ( ASC , SHA1 )</span></td>
                         <td><span class="error-badge">404 Not Found</span></td>
                     </tr>
@@ -212,7 +215,7 @@
 
                     <tr>
                         <td><a href="https://help.sonatype.com/en/container-deployments.html" class="source-link" target="_blank" title="https://help.sonatype.com/en/container-deployments.html">container-deployments</a></td>
-                        <td><span class="broken-link" title="https://repo1.dso.mil/dsop/sonatype/nexus-iq-server/nexus-iq-server">https://repo1.dso.mil/dsop/sonatype/nexus-iq-se...</span></td>
+                        <td><span class="broken-link" title="https://repo1.dso.mil/dsop/sonatype/nexus-iq-server/nexus-iq-server">https://repo1.dso.mil/dsop/sonatype/nexus-iq-server/nexus-iq-server</span></td>
                         <td><span class="context">Iron Bank for Sonatype IQ Server</span></td>
                         <td><span class="error-badge">Timeout (after retri</span></td>
                     </tr>
@@ -239,7 +242,7 @@
 
                     <tr>
                         <td><a href="https://help.sonatype.com/en/notable-integrations-changes.html" class="source-link" target="_blank" title="https://help.sonatype.com/en/notable-integrations-changes.html">notable-integrations-changes</a></td>
-                        <td><span class="broken-link" title="https://repo.sonatype.com/repository/sonatype-hosted/pki/deb-gpg/GPG-KEY-sonatype-apt-hosted.asc ">https://repo.sonatype.com/repository/sonatype-h...</span></td>
+                        <td><span class="broken-link" title="https://repo.sonatype.com/repository/sonatype-hosted/pki/deb-gpg/GPG-KEY-sonatype-apt-hosted.asc ">https://repo.sonatype.com/repository/sonatype-hosted/pki/deb-gpg/GPG-KEY-sonatype-apt-hosted.asc </span></td>
                         <td><span class="context">https://repo.sonatype.com/repository/sonatype-hosted/pki/deb-gpg/GPG-KEY-sonatype-apt-hosted.asc</span></td>
                         <td><span class="error-badge">404 Not Found</span></td>
                     </tr>
@@ -266,15 +269,8 @@
 
                     <tr>
                         <td><a href="https://help.sonatype.com/en/find-and-fix-log4j.html" class="source-link" target="_blank" title="https://help.sonatype.com/en/find-and-fix-log4j.html">find-and-fix-log4j</a></td>
-                        <td><span class="broken-link" title="https://ossindex.sonatype.org/vulnerability/f0ac54b6-9b81-45bb-99a4-e6cb54749f9d">https://ossindex.sonatype.org/vulnerability/f0a...</span></td>
+                        <td><span class="broken-link" title="https://ossindex.sonatype.org/vulnerability/f0ac54b6-9b81-45bb-99a4-e6cb54749f9d">https://ossindex.sonatype.org/vulnerability/f0ac54b6-9b81-45bb-99a4-e6cb54749f9d</span></td>
                         <td><span class="context">...ular Java logging framework. The log4j-core vulnerability ( CVE-2021-44228 , a.k.a. Log4Shell) affects a massive number of application...</span></td>
-                        <td><span class="error-badge">404 Not Found</span></td>
-                    </tr>
-
-                    <tr>
-                        <td><a href="https://help.sonatype.com/en/pull-request-commenting.html" class="source-link" target="_blank" title="https://help.sonatype.com/en/pull-request-commenting.html">pull-request-commenting</a></td>
-                        <td><span class="broken-link" title="https://github.com/samplecount/samplerepo.">https://github.com/samplecount/samplerepo.</span></td>
-                        <td><span class="context">...have a repository URL, which must be entered as HTTPS, e.g. https://github.com/samplecount/samplerepo. The trailing .git is optional. If an ssh:...</span></td>
                         <td><span class="error-badge">404 Not Found</span></td>
                     </tr>
 
@@ -282,6 +278,13 @@
                         <td><a href="https://help.sonatype.com/en/automated-pull-requests.html" class="source-link" target="_blank" title="https://help.sonatype.com/en/automated-pull-requests.html">automated-pull-requests</a></td>
                         <td><span class="broken-link" title="https://github.com/samplecount/samplerepo.">https://github.com/samplecount/samplerepo.</span></td>
                         <td><span class="context">...e a repository URL, which much be entered as an HTTPS, e.g. https://github.com/samplecount/samplerepo. The trailing .git is optional. If an ssh:...</span></td>
+                        <td><span class="error-badge">404 Not Found</span></td>
+                    </tr>
+
+                    <tr>
+                        <td><a href="https://help.sonatype.com/en/pull-request-commenting.html" class="source-link" target="_blank" title="https://help.sonatype.com/en/pull-request-commenting.html">pull-request-commenting</a></td>
+                        <td><span class="broken-link" title="https://github.com/samplecount/samplerepo.">https://github.com/samplecount/samplerepo.</span></td>
+                        <td><span class="context">...have a repository URL, which must be entered as HTTPS, e.g. https://github.com/samplecount/samplerepo. The trailing .git is optional. If an ssh:...</span></td>
                         <td><span class="error-badge">404 Not Found</span></td>
                     </tr>
 
@@ -320,57 +323,29 @@
                 <tbody>
 
                     <tr>
-                        <td><a href="https://help.sonatype.com/en/logging-configuration.html" class="source-link" target="_blank" title="https://help.sonatype.com/en/logging-configuration.html">logging-configuration</a></td>
-                        <td><span class="broken-link" title="https://www.dropwizard.io/en/release-1.3.x/manual/core.html">https://www.dropwizard.io/en/release-1.3.x/manu...</span></td>
-                        <td><span class="context">IQ Server uses Dropwizard 1.3.x logging configuration</span></td>
-                        <td><span class="error-badge">404 Not Found</span></td>
-                    </tr>
-
-                    <tr>
-                        <td><a href="https://help.sonatype.com/en/logging-configuration.html" class="source-link" target="_blank" title="https://help.sonatype.com/en/logging-configuration.html">logging-configuration</a></td>
-                        <td><span class="broken-link" title="https://www.dropwizard.io/en/release-1.3.x/manual/configuration.html">https://www.dropwizard.io/en/release-1.3.x/manu...</span></td>
-                        <td><span class="context">IQ Server uses Dropwizard 1.3.x requestLog configuration</span></td>
-                        <td><span class="error-badge">404 Not Found</span></td>
-                    </tr>
-
-                    <tr>
-                        <td><a href="https://help.sonatype.com/en/logging-configuration.html" class="source-link" target="_blank" title="https://help.sonatype.com/en/logging-configuration.html">logging-configuration</a></td>
-                        <td><span class="broken-link" title="https://logback.qos.ch/xref/ch/qos/logback/access/PatternLayout.html">https://logback.qos.ch/xref/ch/qos/logback/acce...</span></td>
-                        <td><span class="context">As of IQ Server 1.43, the request log line format is configurable using patterns defined by the Logback Access PatternLayout class.</span></td>
-                        <td><span class="error-badge">404 Not Found</span></td>
-                    </tr>
-
-                    <tr>
-                        <td><a href="https://help.sonatype.com/en/atlassian-crowd-integration-configuration.html" class="source-link" target="_blank" title="https://help.sonatype.com/en/atlassian-crowd-integration-configuration.html">atlassian-crowd-integration-configura...</a></td>
-                        <td><span class="broken-link" title="http://your-host:8095/crowd">http://your-host:8095/crowd</span></td>
-                        <td><span class="context">Crowd Server URL : Enter the Crowd Server URL. (e.g. http://your-host:8095/crowd )</span></td>
-                        <td><span class="error-badge">Connection Failed</span></td>
-                    </tr>
-
-                    <tr>
                         <td><a href="https://help.sonatype.com/en/nexus-repository-3-38-0---3-38-1-release-notes.html" class="source-link" target="_blank" title="https://help.sonatype.com/en/nexus-repository-3-38-0---3-38-1-release-notes.html">nexus-repository-3-38-0---3-38-1-rele...</a></td>
-                        <td><span class="broken-link" title="https://ossindex.sonatype.org/vulnerability/f0ac54b6-9b81-45bb-99a4-e6cb54749f9d">https://ossindex.sonatype.org/vulnerability/f0a...</span></td>
+                        <td><span class="broken-link" title="https://ossindex.sonatype.org/vulnerability/f0ac54b6-9b81-45bb-99a4-e6cb54749f9d">https://ossindex.sonatype.org/vulnerability/f0ac54b6-9b81-45bb-99a4-e6cb54749f9d</span></td>
                         <td><span class="context">...itical vulnerability in Apache's "Log4j2" logging utility ( CVE-2021-44228 , also known as "log4shell"), we introduced the Log4J Visua...</span></td>
                         <td><span class="error-badge">404 Not Found</span></td>
                     </tr>
 
                     <tr>
                         <td><a href="https://help.sonatype.com/en/nexus-repository-3-37-0---3-37-3-release-notes.html" class="source-link" target="_blank" title="https://help.sonatype.com/en/nexus-repository-3-37-0---3-37-3-release-notes.html">nexus-repository-3-37-0---3-37-3-rele...</a></td>
-                        <td><span class="broken-link" title="https://ossindex.sonatype.org/vulnerability/f0ac54b6-9b81-45bb-99a4-e6cb54749f9d">https://ossindex.sonatype.org/vulnerability/f0a...</span></td>
+                        <td><span class="broken-link" title="https://ossindex.sonatype.org/vulnerability/f0ac54b6-9b81-45bb-99a4-e6cb54749f9d">https://ossindex.sonatype.org/vulnerability/f0ac54b6-9b81-45bb-99a4-e6cb54749f9d</span></td>
                         <td><span class="context">...itical vulnerability in Apache's "Log4j2" logging utility ( CVE-2021-44228 , also known as "log4shell"). In an effort to help the glob...</span></td>
                         <td><span class="error-badge">404 Not Found</span></td>
                     </tr>
 
                     <tr>
                         <td><a href="https://help.sonatype.com/en/deploy-nexus-repository-to-google-cloud.html" class="source-link" target="_blank" title="https://help.sonatype.com/en/deploy-nexus-repository-to-google-cloud.html">deploy-nexus-repository-to-google-cloud</a></td>
-                        <td><span class="broken-link" title="https://github.com/sonatype/nxrm3-ha-repository/blob/NEXUS-42970_add_gcp_doc/sample-gcp-ha-yamls/gcp-ha-namespaces.yaml">https://github.com/sonatype/nxrm3-ha-repository...</span></td>
+                        <td><span class="broken-link" title="https://github.com/sonatype/nxrm3-ha-repository/blob/NEXUS-42970_add_gcp_doc/sample-gcp-ha-yamls/gcp-ha-namespaces.yaml">https://github.com/sonatype/nxrm3-ha-repository/blob/NEXUS-42970_add_gcp_doc/sample-gcp-ha-yamls/gcp-ha-namespaces.yaml</span></td>
                         <td><span class="context">Fill out a Namespaces YAML with the correct information for your deployment.</span></td>
                         <td><span class="error-badge">404 Not Found</span></td>
                     </tr>
 
                     <tr>
                         <td><a href="https://help.sonatype.com/en/resilient-nexus-repository-deployment-to-google-cloud.html" class="source-link" target="_blank" title="https://help.sonatype.com/en/resilient-nexus-repository-deployment-to-google-cloud.html">resilient-nexus-repository-deployment...</a></td>
-                        <td><span class="broken-link" title="https://github.com/sonatype/nxrm3-ha-repository/blob/NEXUS-42970_add_gcp_doc/sample-gcp-ha-yamls/gcp-ha-namespaces.yaml">https://github.com/sonatype/nxrm3-ha-repository...</span></td>
+                        <td><span class="broken-link" title="https://github.com/sonatype/nxrm3-ha-repository/blob/NEXUS-42970_add_gcp_doc/sample-gcp-ha-yamls/gcp-ha-namespaces.yaml">https://github.com/sonatype/nxrm3-ha-repository/blob/NEXUS-42970_add_gcp_doc/sample-gcp-ha-yamls/gcp-ha-namespaces.yaml</span></td>
                         <td><span class="context">Fill out a Namespaces YAML with the correct information for your deployment.</span></td>
                         <td><span class="error-badge">404 Not Found</span></td>
                     </tr>
@@ -383,15 +358,43 @@
                     </tr>
 
                     <tr>
+                        <td><a href="https://help.sonatype.com/en/conda-repositories.html" class="source-link" target="_blank" title="https://help.sonatype.com/en/conda-repositories.html">conda-repositories</a></td>
+                        <td><span class="broken-link" title="https://conda.anaconda.org/conda-forge">https://conda.anaconda.org/conda-forge</span></td>
+                        <td><span class="context">...ages from remote Anaconda repositories, such as Continuum , Conda-Forge , and Anaconda . Have the Conda client use the Nexus Reposi...</span></td>
+                        <td><span class="error-badge">404 Not Found</span></td>
+                    </tr>
+
+                    <tr>
                         <td><a href="https://help.sonatype.com/en/migrating-to-nexus-repository-from-artifactory.html" class="source-link" target="_blank" title="https://help.sonatype.com/en/migrating-to-nexus-repository-from-artifactory.html">migrating-to-nexus-repository-from-ar...</a></td>
-                        <td><span class="broken-link" title="https://jfrog.com/help/r/jfrog-artifactory-documentation/repositories-import-and-export">https://jfrog.com/help/r/jfrog-artifactory-docu...</span></td>
+                        <td><span class="broken-link" title="https://jfrog.com/help/r/jfrog-artifactory-documentation/repositories-import-and-export">https://jfrog.com/help/r/jfrog-artifactory-documentation/repositories-import-and-export</span></td>
                         <td><span class="context">...request a backup to be taken and made available to you (See Artifactory's documentation )....</span></td>
                         <td><span class="error-badge">404 Not Found</span></td>
                     </tr>
 
                     <tr>
+                        <td><a href="https://help.sonatype.com/en/logging-configuration.html" class="source-link" target="_blank" title="https://help.sonatype.com/en/logging-configuration.html">logging-configuration</a></td>
+                        <td><span class="broken-link" title="https://www.dropwizard.io/en/release-1.3.x/manual/core.html">https://www.dropwizard.io/en/release-1.3.x/manual/core.html</span></td>
+                        <td><span class="context">IQ Server uses Dropwizard 1.3.x logging configuration</span></td>
+                        <td><span class="error-badge">404 Not Found</span></td>
+                    </tr>
+
+                    <tr>
+                        <td><a href="https://help.sonatype.com/en/logging-configuration.html" class="source-link" target="_blank" title="https://help.sonatype.com/en/logging-configuration.html">logging-configuration</a></td>
+                        <td><span class="broken-link" title="https://www.dropwizard.io/en/release-1.3.x/manual/configuration.html">https://www.dropwizard.io/en/release-1.3.x/manual/configuration.html</span></td>
+                        <td><span class="context">IQ Server uses Dropwizard 1.3.x requestLog configuration</span></td>
+                        <td><span class="error-badge">404 Not Found</span></td>
+                    </tr>
+
+                    <tr>
+                        <td><a href="https://help.sonatype.com/en/logging-configuration.html" class="source-link" target="_blank" title="https://help.sonatype.com/en/logging-configuration.html">logging-configuration</a></td>
+                        <td><span class="broken-link" title="https://logback.qos.ch/xref/ch/qos/logback/access/PatternLayout.html">https://logback.qos.ch/xref/ch/qos/logback/access/PatternLayout.html</span></td>
+                        <td><span class="context">As of IQ Server 1.43, the request log line format is configurable using patterns defined by the Logback Access PatternLayout class.</span></td>
+                        <td><span class="error-badge">404 Not Found</span></td>
+                    </tr>
+
+                    <tr>
                         <td><a href="https://help.sonatype.com/en/docker-image-analysis.html" class="source-link" target="_blank" title="https://help.sonatype.com/en/docker-image-analysis.html">docker-image-analysis</a></td>
-                        <td><span class="broken-link" title="https://wiki.jenkins.io/display/JENKINS/Nexus+Platform+Plugin">https://wiki.jenkins.io/display/JENKINS/Nexus+P...</span></td>
+                        <td><span class="broken-link" title="https://wiki.jenkins.io/display/JENKINS/Nexus+Platform+Plugin">https://wiki.jenkins.io/display/JENKINS/Nexus+Platform+Plugin</span></td>
                         <td><span class="context">...evaluation. You need a running instance of Jenkins with the Sonatype Platform plugin to run policy evaluations. Specify an agent node that has D...</span></td>
                         <td><span class="error-badge">404 Not Found</span></td>
                     </tr>
@@ -405,16 +408,16 @@
 
                     <tr>
                         <td><a href="https://help.sonatype.com/en/apt-repositories.html" class="source-link" target="_blank" title="https://help.sonatype.com/en/apt-repositories.html">apt-repositories</a></td>
-                        <td><span class="broken-link" title="http://https://wiki.debian.org/DebianRepository/Format">http://https://wiki.debian.org/DebianRepository...</span></td>
+                        <td><span class="broken-link" title="http://https://wiki.debian.org/DebianRepository/Format">http://https://wiki.debian.org/DebianRepository/Format</span></td>
                         <td><span class="context">See Flat Repository Format</span></td>
                         <td><span class="error-badge">Connection Failed</span></td>
                     </tr>
 
                     <tr>
-                        <td><a href="https://help.sonatype.com/en/conda-repositories.html" class="source-link" target="_blank" title="https://help.sonatype.com/en/conda-repositories.html">conda-repositories</a></td>
-                        <td><span class="broken-link" title="https://conda.anaconda.org/conda-forge">https://conda.anaconda.org/conda-forge</span></td>
-                        <td><span class="context">...ages from remote Anaconda repositories, such as Continuum , Conda-Forge , and Anaconda . Have the Conda client use the Nexus Reposi...</span></td>
-                        <td><span class="error-badge">404 Not Found</span></td>
+                        <td><a href="https://help.sonatype.com/en/atlassian-crowd-integration-configuration.html" class="source-link" target="_blank" title="https://help.sonatype.com/en/atlassian-crowd-integration-configuration.html">atlassian-crowd-integration-configura...</a></td>
+                        <td><span class="broken-link" title="http://your-host:8095/crowd">http://your-host:8095/crowd</span></td>
+                        <td><span class="context">Crowd Server URL : Enter the Crowd Server URL. (e.g. http://your-host:8095/crowd )</span></td>
+                        <td><span class="error-badge">Connection Failed</span></td>
                     </tr>
 
                 </tbody>
